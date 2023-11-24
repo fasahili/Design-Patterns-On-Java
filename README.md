@@ -3,11 +3,11 @@
 
 ## :ledger: Observer Pattern
 
-##### WeatherDataSubject
+##### IWeatherDataSubject
 - Objective: Stores real-time weather data such as temperature and humidity.
 - Functionality: Alerts registered observers when there's an alteration in the stored weather data.
 
-##### WeatherDataObserver
+##### IWeatherDataObserver
 - Objective: Acts as an interface defining the update method for receiving weather data.
 - Functionality: Concrete observer classes implement this interface to receive and exhibit weather updates.
 
