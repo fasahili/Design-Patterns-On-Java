@@ -19,7 +19,7 @@
 - Objective: Presents statistical insights derived from weather data.
 - Functionality: Displays averages of temperature, humidity, and pressure over specific periods.
 
-### :zap: Decorator Pattern
+## :zap: Decorator Pattern
 
 ##### TemperatureUnitsDecorator
 - Objective: Enables users to toggle between Celsius and Fahrenheit for displayed data.
@@ -40,5 +40,10 @@
 ##### DecoratorSwitch Abstract Class
 - Objective: Manages the logic for switching between Celsius and Fahrenheit temperature units.
 - Functionality: Defines the structure to handle the transition between temperature units based on specified user preferences.
+
+## :notebook: Notes
+- I have adhered to all the Design pattern(Opserver and Decrator) rules required.
+- It took the temperature value out of the update to change its real value and convert it into other units.
+
 ##  :camera: UML
-![UML](https://github.com/fasahili/Design-Patterns/assets/144853596/cf005275-12f0-4ed8-a165-ca5b9679e9be)
+![Blank diagram](https://github.com/fasahili/Design-Patterns/assets/144853596/3cdff271-4d6e-4204-a6a3-d2cf20a445fe)
