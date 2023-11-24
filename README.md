@@ -42,7 +42,6 @@
 - Functionality: Defines the structure to handle the transition between temperature units based on specified user preferences.
 
 ## :notebook: Notes
-- I have adhered to all the Design pattern(Opserver and Decrator) rules required.
 - It took the temperature value out of the update to change its real value and convert it into other units.
 
 ##  :camera: UML
